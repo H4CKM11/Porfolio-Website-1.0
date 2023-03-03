@@ -336,6 +336,17 @@ padding: 3rem 0;
 
 
 @media screen and (max-width: 960px) {
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-decoration: none;
+        color: black;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
     .navbar__container{
         display: flex;
         justify-content: space-between;
@@ -597,9 +608,8 @@ padding: 3rem 0;
 .footer_lower_half
 {
 padding: 3rem 0;
+line-height: 1.8rem;
 }
-
-
 
 
 }
